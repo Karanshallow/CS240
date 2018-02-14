@@ -66,7 +66,7 @@ bool LinkedList::remove(int newPos){
 ItemType LinkedList::retrieve(int newPos) const{
 	node* a = head;
 	if(newPos>length||newPos <1){
-		return "";
+		return NULL;
 	}
 	for(int i =1;i<newPos;i++){
 		a = a->next;
