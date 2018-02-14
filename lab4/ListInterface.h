@@ -12,7 +12,7 @@ NOTE: ItemType must be defined in this file.
 
 */
 
-typedef string ItemType; // change to desired type for your application
+typedef ItemToPurchase ItemType; // change to desired type for your application
 
 class ListInterface {
 
